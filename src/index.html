@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Path Editor</title>
+</head>
+
+<body>
+  <div class='container welcome'>
+    <div class='row'>
+      <div class="column column-50">Welcome to SVG Editor</div>
+      <div class="column column-50">
+        <button id='copyButton'>Copy SVG Path</button>
+      </div>
+    </div>
+  </div>
+  <div class='container'>
+    <div class='row'>
+      <div class='column column-50'>
+        <form>
+          <fieldset>
+            <label for='pathInput'>Input</label>
+            <textarea placeholder='Provide path' id='pathInput'>M10 10L30 50 5 50Z</textarea>
+            <lable for='scale'>Scale</lable>
+            <input type='number' id='scale' placeholder='Scale' value='1'>
+            <lable for='transX'>Translate X</lable>
+            <input type='number' id='transX' placeholder='Translate X' value='0'>
+            <lable for='transY'>Translate Y</lable>
+            <input type='number' id='transY' placeholder='Translate Y' value='0'>
+            <lable for='rotate'>Rotate</lable>
+            <input type='number' id='rotate' placeholder='Rotate' value='0'>
+          </fieldset>
+        </form>
+      </div>
+      <div class='column column-50'>
+        <span>Output:</span>
+        <div class='row code'>
+          <span id='output'>Example</span>
+        </div>
+        <div id='svgOutput'></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
