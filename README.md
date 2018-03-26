@@ -13,5 +13,4 @@ yarn i
 yarn start
 ```
 ## BUILD OUTPUT
-
-/dist/index.html
+[solution](https://m-przybylski.github.io/ITChallangesFinalTask/dist/)
