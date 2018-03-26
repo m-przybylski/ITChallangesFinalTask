@@ -1,4 +1,4 @@
-##Information:
+## Information:
 
 SVG Editor supports only M/m L/l Z/z
 
